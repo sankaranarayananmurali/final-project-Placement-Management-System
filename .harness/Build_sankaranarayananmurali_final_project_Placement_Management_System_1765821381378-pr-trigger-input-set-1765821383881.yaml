@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sankaranarayananmurali_final_project_Placement_Management_System_1765821381378-pr-trigger-input-set
+  identifier: Build_sankaranarayananmurali_final_project_Placement_Management_System_1765821381378prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sankaranarayananmurali_final_project_Placement_Management_System_1765821381378
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
