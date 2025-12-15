@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sankaranarayananmurali_final_project_Placement_Management_System_1765821381378-push-trigger-input-set
+  identifier: Build_sankaranarayananmurali_final_project_Placement_Management_System_1765821381378pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sankaranarayananmurali_final_project_Placement_Management_System_1765821381378
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
