@@ -17,6 +17,8 @@ pipeline:
                   name: Echo Welcome Message
                   identifier: Echo_Welcome_Message
                   spec:
+                    connectorRef: dockerhub
+                    image: maven:3.9.6
                     shell: Sh
                     command: |-
                       echo "Welcome to Harness CI"
